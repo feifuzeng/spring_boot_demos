@@ -1,0 +1,46 @@
+spring:
+  datasource:
+    primary:
+      jdbc-url:  jdbc:mysql://127.0.0.1:3306/test1?serverTimezone=GMT%2B8
+      username: root
+      password: root
+
+      type: com.alibaba.druid.pool.DruidDataSource
+      driver-class-name: com.mysql.jdbc.Driver
+      filters: stat
+      maxActive: 20
+      initialSize: 1
+      maxWait: 60000
+      minIdle: 1
+      timeBetweenEvictionRunsMillis: 60000
+      minEvictableIdleTimeMillis: 300000
+      validationQuery: select 'x'
+      testWhileIdle: true
+      testOnBorrow: false
+      testOnReturn: false
+      poolPreparedStatements: true
+      maxOpenPreparedStatements: 20
+    second:
+      jdbc-url:  jdbc:mysql://127.0.0.1:3306/test2?serverTimezone=GMT%2B8
+      username: root
+      password: root
+
+#mybatis:
+#  mapper-locations: classpath:mapping/*.xml  #\u6307\u660Emapper\u7684xml\u6587\u4EF6\u5B58\u653E\u4F4D\u7F6E
+#  type-aliases-package: com.rongdong.model   #\u6307\u660E\u548C\u6570\u636E\u5E93\u6620\u5C04\u7684\u5B9E\u4F53\u7684\u6240\u5728\u5305
+
+#pagehelper \u5206\u9875\u63D2\u4EF6
+pagehelper:
+  helperDialect: mysql
+  reasonable: true
+  supportMethodsArguments: true
+  params: count=countSql
+
+########################################################
+###配置打印sql
+########################################################
+logging:
+  level:
+    root: INFO
+    com.ohaotian.feifuzeng.multidb.dao.primary: DEBUG
+    com.ohaotian.feifuzeng.multidb.dao.second: DEBUG

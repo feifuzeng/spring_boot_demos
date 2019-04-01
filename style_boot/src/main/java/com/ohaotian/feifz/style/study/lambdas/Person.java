@@ -14,7 +14,7 @@ public class Person {
     private int salary, age;
 
     public Person(String firstName, String lastName, String job,
-                  String gender, int age, int salary)       {
+                  String gender, int age, int salary) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.gender = gender;

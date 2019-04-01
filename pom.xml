@@ -16,5 +16,6 @@
         <module>mq-demo</module>
         <module>multidb-demo</module>
         <module>style_boot</module>
+        <module>dubbo-demo</module>
     </modules>
 </project>

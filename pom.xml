@@ -11,4 +11,10 @@
     <description>springboot相关练手demo</description>
 
 
+    <modules>
+        <module>designpattern-demo</module>
+        <module>mq-demo</module>
+        <module>multidb-demo</module>
+        <module>style_boot</module>
+    </modules>
 </project>

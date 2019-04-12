@@ -9,8 +9,12 @@ package com.ohaotian.feifz.mq.kafka;
 public class KafkaClient {
 
     public static void main(String[] args) {
-        KafkaProducerService pro = new KafkaProducerService(KafkaConfig.KafkaProperties.TOPIC);
-        pro.start();
+//        KafkaProducerService pro = new KafkaProducerService(KafkaConfig.KafkaProperties.TOPIC);
+//        pro.start();
+
+
+        KafkaProducerNewService pro = new KafkaProducerNewService();
+        pro.send("test.test");
     }
 
 }

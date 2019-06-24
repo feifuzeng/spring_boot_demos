@@ -9,7 +9,7 @@
         <version>1.5.14.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.ohaotian.feifz</groupId>
+    <groupId>com.giuhub.feifuzeng</groupId>
     <artifactId>mq-api</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>mq-api</name>
@@ -66,19 +66,18 @@
             <artifactId>spring-boot-starter-amqp</artifactId>
         </dependency>
         <!--kafka 依赖-->
-<!--        <dependency>-->
-<!--            <groupId>org.apache.kafka</groupId>-->
-<!--            <artifactId>kafka_2.11</artifactId>-->
-<!--            <version>0.8.2.1</version>-->
-<!--        </dependency>-->
-
         <!-- https://mvnrepository.com/artifact/org.apache.kafka/kafka -->
         <dependency>
             <groupId>org.apache.kafka</groupId>
             <artifactId>kafka_2.12</artifactId>
             <version>2.2.0</version>
         </dependency>
-
+<!--        rocketmq依赖-->
+        <dependency>
+            <groupId>org.apache.rocketmq</groupId>
+            <artifactId>rocketmq-client</artifactId>
+            <version>4.3.0</version>
+        </dependency>
     </dependencies>
 
     <build>

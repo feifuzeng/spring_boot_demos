@@ -9,7 +9,7 @@
         <version>1.5.14.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.ohaotian.feifz</groupId>
+    <groupId>com.giuhub.feifuzeng</groupId>
     <artifactId>mq-consumer</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>war</packaging>
@@ -54,7 +54,7 @@
         </dependency>
     <!--mq-api-->
         <dependency>
-            <groupId>com.ohaotian.feifz</groupId>
+            <groupId>com.giuhub.feifuzeng</groupId>
             <artifactId>mq-api</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>

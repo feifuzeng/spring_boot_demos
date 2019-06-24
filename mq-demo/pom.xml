@@ -9,7 +9,7 @@
         <version>2.1.1.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.ohaotian.feifz</groupId>
+    <groupId>com.giuhub.feifuzeng</groupId>
     <artifactId>mq-demo</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>

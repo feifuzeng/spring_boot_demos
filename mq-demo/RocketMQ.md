@@ -431,5 +431,5 @@ usage: mqadmin updateTopic [-b <arg>] [-c <arg>] [-h] [-n <arg>] [-o <arg>] [-p 
 # 参考
 * apache:http://rocketmq.apache.org/docs/motivation/
 * alibaba:https://help.aliyun.com/document_detail/29532.html
-* https://my.oschina.net/buru1kan/blog/1814356
-* http://xiajunhust.github.io/2016/11/12/RocketMQ%E6%BA%90%E7%A0%81%E5%AD%A6%E4%B9%A0%E4%B9%8B%E4%B8%80-MAC%E7%B3%BB%E7%BB%9F%E5%8D%95%E6%9C%BA%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/
+* [RocketMQ-Console安装及RocketMQ命令行管理工具介绍](https://my.oschina.net/buru1kan/blog/1814356)
+* [RocketMQ源码学习之一-MAC单机环境搭建](http://xiajunhust.github.io/2016/11/12/RocketMQ%E6%BA%90%E7%A0%81%E5%AD%A6%E4%B9%A0%E4%B9%8B%E4%B8%80-MAC%E7%B3%BB%E7%BB%9F%E5%8D%95%E6%9C%BA%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/)

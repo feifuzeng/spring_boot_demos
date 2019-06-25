@@ -12,7 +12,7 @@
     <artifactId>designpattern</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>designpattern</name>
-    <description>Demo project for Spring Boot</description>
+    <description>设计模式学习示例工程</description>
 
     <properties>
         <java.version>1.8</java.version>

@@ -2,8 +2,8 @@ package com.github.feifuzeng;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.github.feifuzeng.study.dao.UserMapper;
-import com.github.feifuzeng.study.model.po.User;
+import com.github.feifuzeng.style.dao.UserMapper;
+import com.github.feifuzeng.style.model.po.User;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;

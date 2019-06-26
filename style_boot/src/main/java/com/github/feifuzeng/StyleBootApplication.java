@@ -3,7 +3,7 @@ package com.github.feifuzeng;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@SpringBootApplication(scanBasePackages = {"com.ohaotian.feifz.style"})
+@SpringBootApplication(scanBasePackages = {"com.github.feifuzeng.style"})
 public class StyleBootApplication {
 
     public static void main(String[] args) {

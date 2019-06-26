@@ -1,6 +1,6 @@
 package com.github.feifuzeng.thread;
 
-import com.github.feifuzeng.study.thread.ThreadDemoService;
+import com.github.feifuzeng.style.thread.ThreadDemoService;
 import org.junit.Test;
 
 /**

@@ -16,7 +16,7 @@ import org.springframework.stereotype.Service;
  * @Date 2019/1/8 10:04
  */
 @Service
-public class RabbitmqConsumerService {
+public class RabbitmqProducerService {
 
     @Autowired
     private AmqpTemplate rabbitTemplate;

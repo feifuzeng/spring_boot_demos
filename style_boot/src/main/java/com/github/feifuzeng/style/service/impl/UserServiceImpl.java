@@ -1,7 +1,7 @@
 package com.github.feifuzeng.style.service.impl;
 
 import com.alibaba.dubbo.config.annotation.Service;
-import com.github.feifuzeng.style.annotation.RetryProcess;
+import com.github.feifuzeng.style.spring.annotation.RetryProcess;
 import com.github.feifuzeng.style.dao.UserMapper;
 import com.github.feifuzeng.style.model.po.User;
 import com.github.feifuzeng.style.service.UserService;
